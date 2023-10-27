@@ -123,6 +123,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+#mostra o caminho da media dos arquivos staticos
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
+#indica a url das fotos
+MEDIA_URL = "/media/"
 
 
 REST_FRAMEWORK = {
